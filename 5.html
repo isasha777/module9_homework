@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .btn {
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+            box-shadow: none;
+            cursor: pointer;
+            margin: 5px 10px;
+            padding: 10px 15px;
+            border-radius: 1px;
+            font-size: 12px;
+            line-height: 15px;
+            text-transform: uppercase;
+            color: white;
+            background: #315efb;
+            transition: 0.3s;
+        }
+        
+        .btn:hover {
+            box-shadow: 0px 2px 8px 2px rgba(141, 150, 178, .3);
+            transform: scale(1.05);
+        }
+    </style>
+    <title>С5.6_Практика 5</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Задание 5-полурабочая</legend>
+        <p> <label>Номер страницы</label> <br />
+            <input id="page" class="text" size="20"> </p>
+        <p> <label>Лимит</label> <br />
+            <input id="limit" class="text" size="20"> </p>
+        <p> <button class="btn j-btn-request">Запрос</button> </p>
+    </fieldset>
+    <!-- <div id="result"></div> -->
+    <img id="result" />
+
+</body>
+</html>
